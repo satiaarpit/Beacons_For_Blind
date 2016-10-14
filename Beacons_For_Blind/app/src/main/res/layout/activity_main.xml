@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="@color/yellow_color"
+    android:id="@+id/activity_container">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <TextView android:text="Welcome"
+        android:textColor="@color/black_color"
+        android:id="@+id/textView"
+        android:layout_below="@id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:textSize="60dp"
+        android:layout_centerInParent="true"
+        />
+    <TextView
+        android:textColor="@color/black_color"
+        android:id="@+id/steps"
+        android:layout_below="@id/textView"
+        android:layout_width="140dp"
+        android:layout_height="160dp"
+        android:textSize="120dp"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>
